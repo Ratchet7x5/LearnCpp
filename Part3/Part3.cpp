@@ -7,7 +7,7 @@ enum cow_purpose
 
 struct cow
 {
-	std::string name;
+	std::string name = "-1";
 	int age = -1;
 	unsigned char purpose = 0;
 };
