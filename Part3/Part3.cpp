@@ -8,8 +8,8 @@ enum cow_purpose
 struct cow
 {
 	std::string name;
-	int age;
-	unsigned char purpose;
+	int age = -1;
+	unsigned char purpose = 0;
 };
 
 int main()
