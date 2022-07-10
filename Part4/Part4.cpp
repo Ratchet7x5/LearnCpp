@@ -1,12 +1,6 @@
-// Learning C++ 
-// Challenge Solution 05_05
-// Create a Report Card Function, by Eduardo Corpeño 
-
 #include <iostream>
 #include <vector>
 #include "records.h"
-
-using namespace std;
 
 void initialize();
 
@@ -16,8 +10,8 @@ int id;
 int main() {
 	initialize();
 
-	cout << "Enter a student ID: ";
-	cin >> id;
+	std::cout << "Enter a student ID: ";
+	std::cin >> id;
 
 	SR.report_card(id);
 
