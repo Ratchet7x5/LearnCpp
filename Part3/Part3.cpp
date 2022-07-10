@@ -24,4 +24,6 @@ int main()
 
 	std::cout << "The cow's name is \"" << my_cow.name << "\" and its " << my_cow.age << " years old.\n";
 	std::cout << my_cow.name << "'s purpose is type-" << (int)my_cow.purpose; //int-cast to see "type-X"
+
+	return 0;
 }
