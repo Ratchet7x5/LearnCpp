@@ -11,8 +11,8 @@ enum cow_purpose
 int main()
 {
 	//the cow struct 
-	cow hilda("Hilda", 7, 'P');
-	cow betty("Betty", 10, 'h');
+	cow hilda { "Hilda", 50, cow_purpose::meat };
+	cow betty { "Betty", 10, cow_purpose::hide };
 
 	cow* p_cow = &hilda;
 
