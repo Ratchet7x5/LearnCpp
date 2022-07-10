@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cow.cpp" />
     <ClCompile Include="Part3.cpp" />
   </ItemGroup>
   <ItemGroup>
